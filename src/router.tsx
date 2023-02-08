@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Spin } from 'antd'
-import { RouteConfig } from 'react-router-config'
+import { useRoutes, HashRouter, Routes } from 'react-router-dom'
 
 const Loading = () => {
   return (
@@ -16,26 +16,19 @@ const Loading = () => {
   )
 }
 
-function LoadPage(loader: any) {
-  const Com = React.lazy(loader)
+const LazyLoad = (loader: any) => {
+  const Component = React.lazy(loader)
 
   return (props: any) => (
     <React.Suspense fallback={<Loading />}>
-      <Com {...props}></Com>
+      <Component {...props} />
     </React.Suspense>
   )
 }
-export const RouterConfig: RouteConfig[] = [
+
+export const RouterConfig: any[] = [
   {
     path: '/',
-    component: LoadPage(() => import('./pages/Home/index' /* webpackChunkName: "layout_app" */)),
-    routes: [
-      {
-        path: '/',
-        exact: true,
-        title: '活动列表',
-        component: LoadPage(() => import('./pages/Home/index' /* webpackChunkName: "pope_list_page" */)),
-      },
-    ],
+    element: LazyLoad(() => import('./pages/Home/index' /* webpackChunkName: "home_page" */)),
   },
 ]

@@ -222,7 +222,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.9.2":
   version "7.20.13"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/runtime/-/runtime-7.20.13.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2F-%2Fruntime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
   integrity sha1-cFWrinz/K49gWL9q5F/4StKt7Us=
@@ -267,6 +267,40 @@
   version "3.5.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@ctrl/tinycolor/-/tinycolor-3.5.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ctrl%2Ftinycolor%2F-%2Ftinycolor-3.5.0.tgz#6e52b3d1c38d13130101771821e09cdd414a16bc"
   integrity sha1-blKz0cONExMBAXcYIeCc3UFKFrw=
+
+"@didi/elvish-lib-javascript@^1.8.2":
+  version "1.8.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@didi/elvish-lib-javascript/-/@didi/elvish-lib-javascript-1.8.2.tgz#8f0b5b76d39fcc5d2188715b298f5b76a188aff9"
+  integrity sha1-jwtbdtOfzF0hiHFbKY9bdqGIr/k=
+  dependencies:
+    full-icu "1.3.0"
+    isomorphic-fetch "^2.2.1"
+
+"@didi/i18n-plugin@^1.8.0":
+  version "1.8.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@didi/i18n-plugin/-/@didi/i18n-plugin-1.8.0.tgz#d494c07d872e34b64f88a663430a02cce95763fd"
+  integrity sha1-1JTAfYcuNLZPiKZjQwoCzOlXY/0=
+  dependencies:
+    chalk "^4.1.2"
+    commander "^9.1.0"
+    isomorphic-fetch "^2.2.1"
+
+"@didi/ibt-fe-genuuidjs@^0.0.2":
+  version "0.0.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@didi/ibt-fe-genuuidjs/-/@didi/ibt-fe-genuuidjs-0.0.2.tgz#6ecf8347741e41d8eda618e41353000e27354f60"
+  integrity sha1-bs+DR3QeQdjtphjkE1MADic1T2A=
+  dependencies:
+    blueimp-md5 "^2.18.0"
+    uuid "^8.3.2"
+
+"@didi/raven@^1.2.4":
+  version "1.2.4"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@didi/raven/-/@didi/raven-1.2.4.tgz#b343c065aa8eb5ea1b8575ed7a04288152835cbf"
+  integrity sha1-s0PAZaqOteobhXXtegQogVKDXL8=
+  dependencies:
+    crypto-js "^4.0.0"
+    es6-promise-polyfill "^1.2.0"
+    object.assign "^4.1.0"
 
 "@emotion/hash@^0.8.0":
   version "0.8.0"
@@ -472,6 +506,16 @@
     rc-trigger "^5.3.4"
     rc-util "^5.24.4"
 
+"@reduxjs/toolkit@^1.9.2":
+  version "1.9.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@reduxjs/toolkit/-/toolkit-1.9.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40reduxjs%2Ftoolkit%2F-%2Ftoolkit-1.9.2.tgz#4cd153491118038e2eebcb63b2264e42a8a2d74c"
+  integrity sha1-TNFTSREYA44u68tjsiZOQqii10w=
+  dependencies:
+    immer "^9.0.16"
+    redux "^4.2.0"
+    redux-thunk "^2.4.2"
+    reselect "^4.1.7"
+
 "@remix-run/router@1.3.2":
   version "1.3.2"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@remix-run/router/-/router-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40remix-run%2Frouter%2F-%2Frouter-1.3.2.tgz#58cd2bd25df2acc16c628e1b6f6150ea6c7455bc"
@@ -481,6 +525,19 @@
   version "4.7.11"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/history/-/history-4.7.11.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fhistory%2F-%2Fhistory-4.7.11.tgz#56588b17ae8f50c53983a524fc3cc47437969d64"
   integrity sha1-VliLF66PUMU5g6Uk/DzEdDeWnWQ=
+
+"@types/hoist-non-react-statics@^3.3.0", "@types/hoist-non-react-statics@^3.3.1":
+  version "3.3.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fhoist-non-react-statics%2F-%2Fhoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha1-ESSq/lEYy1kZd66xzqrtEHDrA58=
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
+"@types/node@^18.13.0":
+  version "18.13.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/node/-/node-18.13.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
+  integrity sha1-BADR5s6H6dMDLBnrbFggWw0/eFA=
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -493,6 +550,16 @@
   integrity sha1-O2bexWqg8Wpswm2p6cqWw1wLQ1I=
   dependencies:
     "@types/react" "*"
+
+"@types/react-redux@^7.1.25":
+  version "7.1.25"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/react-redux/-/react-redux-7.1.25.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Freact-redux%2F-%2Freact-redux-7.1.25.tgz#de841631205b24f9dfb4967dd4a7901e048f9a88"
+  integrity sha1-3oQWMSBbJPnftJZ91KeQHgSPmog=
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
 
 "@types/react-router-config@^5.0.6":
   version "5.0.6"
@@ -525,6 +592,11 @@
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/scheduler/-/scheduler-0.16.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fscheduler%2F-%2Fscheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
 
+"@types/use-sync-external-store@^0.0.3":
+  version "0.0.3"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fuse-sync-external-store%2F-%2Fuse-sync-external-store-0.0.3.tgz#b6725d5f4af24ace33b36fafd295136e75509f43"
+  integrity sha1-tnJdX0rySs4zs2+v0pUTbnVQn0M=
+
 "@vitejs/plugin-react@^3.1.0":
   version "3.1.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@vitejs/plugin-react/-/plugin-react-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40vitejs%2Fplugin-react%2F-%2Fplugin-react-3.1.0.tgz#d1091f535eab8b83d6e74034d01e27d73c773240"
@@ -542,6 +614,13 @@ ansi-styles@^3.2.1:
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
   dependencies:
     color-convert "^1.9.0"
+
+ansi-styles@^4.1.0:
+  version "4.3.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/ansi-styles/-/ansi-styles-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fansi-styles%2F-%2Fansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
+  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
+  dependencies:
+    color-convert "^2.0.1"
 
 antd@^5.1.7:
   version "5.1.7"
@@ -606,6 +685,11 @@ async-validator@^4.1.0:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/async-validator/-/async-validator-4.2.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fasync-validator%2F-%2Fasync-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
   integrity sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=
 
+blueimp-md5@^2.18.0:
+  version "2.19.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/blueimp-md5/-/blueimp-md5-2.19.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fblueimp-md5%2F-%2Fblueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
+  integrity sha1-tT/upUmNy1PcbsS4I624S3KcSvA=
+
 browserslist@^4.21.3:
   version "4.21.5"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/browserslist/-/browserslist-4.21.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fbrowserslist%2F-%2Fbrowserslist-4.21.5.tgz#75c5dae60063ee641f977e00edd3cfb2fb7af6a7"
@@ -615,6 +699,14 @@ browserslist@^4.21.3:
     electron-to-chromium "^1.4.284"
     node-releases "^2.0.8"
     update-browserslist-db "^1.0.10"
+
+call-bind@^1.0.2:
+  version "1.0.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/call-bind/-/call-bind-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcall-bind%2F-%2Fcall-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  integrity sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw=
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
 
 caniuse-lite@^1.0.30001449:
   version "1.0.30001450"
@@ -630,6 +722,14 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/chalk/-/chalk-4.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fchalk%2F-%2Fchalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.3.2:
   version "2.3.2"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/classnames/-/classnames-2.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fclassnames%2F-%2Fclassnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
@@ -642,10 +742,27 @@ color-convert@^1.9.0:
   dependencies:
     color-name "1.1.3"
 
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/color-convert/-/color-convert-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcolor-convert%2F-%2Fcolor-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+  dependencies:
+    color-name "~1.1.4"
+
 color-name@1.1.3:
   version "1.1.3"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/color-name/-/color-name-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcolor-name%2F-%2Fcolor-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/color-name/-/color-name-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcolor-name%2F-%2Fcolor-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+
+commander@^9.1.0:
+  version "9.5.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/commander/-/commander-9.5.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2F-%2Fcommander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
+  integrity sha1-vAjR61zt98y3l6lhmdQce8PmDTA=
 
 compute-scroll-into-view@^2.0.4:
   version "2.0.4"
@@ -664,6 +781,11 @@ copy-to-clipboard@^3.2.0:
   dependencies:
     toggle-selection "^1.0.6"
 
+crypto-js@^4.0.0:
+  version "4.1.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/crypto-js/-/crypto-js-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcrypto-js%2F-%2Fcrypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha1-nkhbzwNSEEG9hYRHhrg/t2GXNs8=
+
 csstype@^3.0.10, csstype@^3.0.2:
   version "3.1.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/csstype/-/csstype-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcsstype%2F-%2Fcsstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
@@ -681,6 +803,14 @@ debug@^4.1.0:
   dependencies:
     ms "2.1.2"
 
+define-properties@^1.1.4:
+  version "1.1.4"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/define-properties/-/define-properties-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fdefine-properties%2F-%2Fdefine-properties-1.1.4.tgz#0b14d7bd7fbeb2f3572c3a7eda80ea5d57fb05b1"
+  integrity sha1-CxTXvX++svNXLDp+2oDqXVf7BbE=
+  dependencies:
+    has-property-descriptors "^1.0.0"
+    object-keys "^1.1.1"
+
 dom-align@^1.7.0:
   version "1.12.4"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/dom-align/-/dom-align-1.12.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fdom-align%2F-%2Fdom-align-1.12.4.tgz#3503992eb2a7cfcb2ed3b2a6d21e0b9c00d54511"
@@ -690,6 +820,18 @@ electron-to-chromium@^1.4.284:
   version "1.4.288"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/electron-to-chromium/-/electron-to-chromium-1.4.288.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-to-chromium%2F-%2Felectron-to-chromium-1.4.288.tgz#bbce00eb03c1819fe3d0d0d861374b76c53f7507"
   integrity sha1-u84A6wPBgZ/j0NDYYTdLdsU/dQc=
+
+encoding@^0.1.11:
+  version "0.1.13"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/encoding/-/encoding-0.1.13.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fencoding%2F-%2Fencoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
+  integrity sha1-VldK/deR9UqOmyeFwFgqLSYhD6k=
+  dependencies:
+    iconv-lite "^0.6.2"
+
+es6-promise-polyfill@^1.2.0:
+  version "1.2.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/es6-promise-polyfill/-/es6-promise-polyfill-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fes6-promise-polyfill%2F-%2Fes6-promise-polyfill-1.2.0.tgz#f38925f23cb3e3e8ce6cda8ff774fcebbb090cde"
+  integrity sha1-84kl8jyz4+jObNqP93T867sJDN4=
 
 esbuild@^0.16.14:
   version "0.16.17"
@@ -734,6 +876,11 @@ fsevents@~2.3.2:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/fsevents/-/fsevents-2.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffsevents%2F-%2Ffsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
 
+full-icu@1.3.0:
+  version "1.3.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/full-icu/-/full-icu-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffull-icu%2F-%2Ffull-icu-1.3.0.tgz#1fb4d60050103ad9dcf53735c000e4a03d80c574"
+  integrity sha1-H7TWAFAQOtnc9Tc1wADkoD2AxXQ=
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/function-bind/-/function-bind-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffunction-bind%2F-%2Ffunction-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -743,6 +890,15 @@ gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/gensync/-/gensync-1.0.0-beta.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fgensync%2F-%2Fgensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha1-MqbudsPX9S1GsrGuXZP+qFgKJeA=
+
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.1:
+  version "1.2.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/get-intrinsic/-/get-intrinsic-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fget-intrinsic%2F-%2Fget-intrinsic-1.2.0.tgz#7ad1dc0535f3a2904bba075772763e5051f6d05f"
+  integrity sha1-etHcBTXzopBLugdXcnY+UFH20F8=
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.3"
 
 globals@^11.1.0:
   version "11.12.0"
@@ -754,6 +910,23 @@ has-flag@^3.0.0:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/has-flag/-/has-flag-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhas-flag%2F-%2Fhas-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
 
+has-flag@^4.0.0:
+  version "4.0.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/has-flag/-/has-flag-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhas-flag%2F-%2Fhas-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
+  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
+
+has-property-descriptors@^1.0.0:
+  version "1.0.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhas-property-descriptors%2F-%2Fhas-property-descriptors-1.0.0.tgz#610708600606d36961ed04c196193b6a607fa861"
+  integrity sha1-YQcIYAYG02lh7QTBlhk7amB/qGE=
+  dependencies:
+    get-intrinsic "^1.1.1"
+
+has-symbols@^1.0.3:
+  version "1.0.3"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/has-symbols/-/has-symbols-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhas-symbols%2F-%2Fhas-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
+  integrity sha1-u3ssQ0klHc6HsSX3vfh0qnyLOfg=
+
 has@^1.0.3:
   version "1.0.3"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/has/-/has-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhas%2F-%2Fhas-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
@@ -761,12 +934,44 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhoist-non-react-statics%2F-%2Fhoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
+
+iconv-lite@^0.6.2:
+  version "0.6.3"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/iconv-lite/-/iconv-lite-0.6.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ficonv-lite%2F-%2Ficonv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  integrity sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
+immer@^9.0.16:
+  version "9.0.19"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/immer/-/immer-9.0.19.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fimmer%2F-%2Fimmer-9.0.19.tgz#67fb97310555690b5f9cd8380d38fc0aabb6b38b"
+  integrity sha1-Z/uXMQVVaQtfnNg4DTj8Cqu2s4s=
+
 is-core-module@^2.9.0:
   version "2.11.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/is-core-module/-/is-core-module-2.11.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fis-core-module%2F-%2Fis-core-module-2.11.0.tgz#ad4cb3e3863e814523c96f3f58d26cc570ff0144"
   integrity sha1-rUyz44Y+gUUjyW8/WNJsxXD/AUQ=
   dependencies:
     has "^1.0.3"
+
+is-stream@^1.0.1:
+  version "1.1.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/is-stream/-/is-stream-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fis-stream%2F-%2Fis-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+  integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+
+isomorphic-fetch@^2.2.1:
+  version "2.2.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fisomorphic-fetch%2F-%2Fisomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -821,10 +1026,33 @@ nanoid@^3.3.4:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/nanoid/-/nanoid-3.3.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fnanoid%2F-%2Fnanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks=
 
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/node-fetch/-/node-fetch-1.7.3.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fnode-fetch%2F-%2Fnode-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha1-mA9vcthSEaU0fGsrwYxbhMPrR+8=
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
+
 node-releases@^2.0.8:
   version "2.0.10"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/node-releases/-/node-releases-2.0.10.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fnode-releases%2F-%2Fnode-releases-2.0.10.tgz#c311ebae3b6a148c89b1813fd7c4d3c024ef537f"
   integrity sha1-wxHrrjtqFIyJsYE/18TTwCTvU38=
+
+object-keys@^1.1.1:
+  version "1.1.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/object-keys/-/object-keys-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fobject-keys%2F-%2Fobject-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
+  integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
+
+object.assign@^4.1.0:
+  version "4.1.4"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/object.assign/-/object.assign-4.1.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fobject.assign%2F-%2Fobject.assign-4.1.4.tgz#9673c7c7c351ab8c4d0b516f4343ebf4dfb7799f"
+  integrity sha1-lnPHx8NRq4xNC1FvQ0Pr9N+3eZ8=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.4"
+    has-symbols "^1.0.3"
+    object-keys "^1.1.1"
 
 path-parse@^1.0.7:
   version "1.0.7"
@@ -1226,22 +1454,32 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-is@^16.12.0:
+react-is@^16.12.0, react-is@^16.7.0:
   version "16.13.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2F-%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-is@^18.0.0:
+  version "18.2.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-is/-/react-is-18.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2F-%2Freact-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
+  integrity sha1-GZQx7qqi4J+GQn77tPFHPttHYJs=
+
+react-redux@^8.0.5:
+  version "8.0.5"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-redux/-/react-redux-8.0.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-redux%2F-%2Freact-redux-8.0.5.tgz#e5fb8331993a019b8aaf2e167a93d10af469c7bd"
+  integrity sha1-5fuDMZk6AZuKry4WepPRCvRpx70=
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+    "@types/hoist-non-react-statics" "^3.3.1"
+    "@types/use-sync-external-store" "^0.0.3"
+    hoist-non-react-statics "^3.3.2"
+    react-is "^18.0.0"
+    use-sync-external-store "^1.0.0"
 
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-refresh/-/react-refresh-0.14.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-refresh%2F-%2Freact-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha1-TgKCU3il8icHlVTUKEiJNU5fVT4=
-
-react-router-config@^5.1.1:
-  version "5.1.1"
-  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-router-config/-/react-router-config-5.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-router-config%2F-%2Freact-router-config-5.1.1.tgz#0f4263d1a80c6b2dc7b9c1902c9526478194a988"
-  integrity sha1-D0Jj0agMay3HucGQLJUmR4GUqYg=
-  dependencies:
-    "@babel/runtime" "^7.1.2"
 
 react-router-dom@^6.8.1:
   version "6.8.1"
@@ -1251,7 +1489,7 @@ react-router-dom@^6.8.1:
     "@remix-run/router" "1.3.2"
     react-router "6.8.1"
 
-react-router@6.8.1:
+react-router@6.8.1, react-router@^6.8.1:
   version "6.8.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-router/-/react-router-6.8.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-router%2F-%2Freact-router-6.8.1.tgz#e362caf93958a747c649be1b47cd505cf28ca63e"
   integrity sha1-42LK+TlYp0fGSb4bR81QXPKMpj4=
@@ -1265,10 +1503,37 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
+redux-devtools-extension@^2.13.9:
+  version "2.13.9"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/redux-devtools-extension/-/redux-devtools-extension-2.13.9.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fredux-devtools-extension%2F-%2Fredux-devtools-extension-2.13.9.tgz#6b764e8028b507adcb75a1cae790f71e6be08ae7"
+  integrity sha1-a3ZOgCi1B63LdaHK55D3Hmvgiuc=
+
+redux-persist@^6.0.0:
+  version "6.0.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/redux-persist/-/redux-persist-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fredux-persist%2F-%2Fredux-persist-6.0.0.tgz#b4d2972f9859597c130d40d4b146fecdab51b3a8"
+  integrity sha1-tNKXL5hZWXwTDUDUsUb+zatRs6g=
+
+redux-thunk@^2.4.2:
+  version "2.4.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/redux-thunk/-/redux-thunk-2.4.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fredux-thunk%2F-%2Fredux-thunk-2.4.2.tgz#b9d05d11994b99f7a91ea223e8b04cf0afa5ef3b"
+  integrity sha1-udBdEZlLmfepHqIj6LBM8K+l7zs=
+
+redux@^4.0.0, redux@^4.2.0:
+  version "4.2.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/redux/-/redux-4.2.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fredux%2F-%2Fredux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
+  integrity sha1-wI9DBoJsSbXp3JAd7gRS6o/OYZc=
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
 regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fregenerator-runtime%2F-%2Fregenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha1-9tyj587sIFkNB62nhWNqkM3KF/k=
+
+reselect@^4.1.7:
+  version "4.1.7"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/reselect/-/reselect-4.1.7.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freselect%2F-%2Freselect-4.1.7.tgz#56480d9ff3d3188970ee2b76527bd94a95567a42"
+  integrity sha1-VkgNn/PTGIlw7it2UnvZSpVWekI=
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"
@@ -1290,6 +1555,11 @@ rollup@^3.10.0:
   integrity sha1-9ZJSVfO26N4dujkW12GcfaVwjZU=
   optionalDependencies:
     fsevents "~2.3.2"
+
+"safer-buffer@>= 2.1.2 < 3.0.0":
+  version "2.1.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/safer-buffer/-/safer-buffer-2.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fsafer-buffer%2F-%2Fsafer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
 scheduler@^0.23.0:
   version "0.23.0"
@@ -1337,6 +1607,13 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^7.1.0:
+  version "7.2.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/supports-color/-/supports-color-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fsupports-color%2F-%2Fsupports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+  dependencies:
+    has-flag "^4.0.0"
+
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fsupports-preserve-symlinks-flag%2F-%2Fsupports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
@@ -1370,6 +1647,16 @@ update-browserslist-db@^1.0.10:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+use-sync-external-store@^1.0.0:
+  version "1.2.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fuse-sync-external-store%2F-%2Fuse-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha1-fb79bvP+TnZ6DPXXKHqs+1hGkoo=
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/uuid/-/uuid-8.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fuuid%2F-%2Fuuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha1-gNW1ztJxu5r2xEXyGhoExgbO++I=
+
 vite@^4.1.0:
   version "4.1.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/vite/-/vite-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvite%2F-%2Fvite-4.1.1.tgz#3b18b81a4e85ce3df5cbdbf4c687d93ebf402e6b"
@@ -1381,6 +1668,11 @@ vite@^4.1.0:
     rollup "^3.10.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+whatwg-fetch@>=0.10.0:
+  version "3.6.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fwhatwg-fetch%2F-%2Fwhatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
+  integrity sha1-3O0k838mJO0CgXJdUdDi4/5nf4w=
 
 yallist@^3.0.2:
   version "3.1.1"
