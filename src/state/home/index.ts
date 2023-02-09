@@ -1,2 +1,2 @@
-export * from './actions'
-export * from './hooks'
+export * from './hook'
+export * from './reducer'

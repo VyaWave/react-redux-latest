@@ -222,7 +222,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.6", "@babel/runtime@^7.20.7", "@babel/runtime@^7.5.5", "@babel/runtime@^7.9.2":
   version "7.20.13"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@babel/runtime/-/runtime-7.20.13.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2F-%2Fruntime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
   integrity sha1-cFWrinz/K49gWL9q5F/4StKt7Us=
@@ -521,6 +521,11 @@
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@remix-run/router/-/router-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40remix-run%2Frouter%2F-%2Frouter-1.3.2.tgz#58cd2bd25df2acc16c628e1b6f6150ea6c7455bc"
   integrity sha1-WM0r0l3yrMFsYo4bb2FQ6mx0Vbw=
 
+"@types/cookie@^0.5.1":
+  version "0.5.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/cookie/-/cookie-0.5.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fcookie%2F-%2Fcookie-0.5.1.tgz#b29aa1f91a59f35e29ff8f7cb24faf1a3a750554"
+  integrity sha1-spqh+RpZ814p/498sk+vGjp1BVQ=
+
 "@types/history@^4.7.11":
   version "4.7.11"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@types/history/-/history-4.7.11.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fhistory%2F-%2Fhistory-4.7.11.tgz#56588b17ae8f50c53983a524fc3cc47437969d64"
@@ -685,6 +690,20 @@ async-validator@^4.1.0:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/async-validator/-/async-validator-4.2.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fasync-validator%2F-%2Fasync-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
   integrity sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/asynckit/-/asynckit-0.4.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fasynckit%2F-%2Fasynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+axios@^1.3.2:
+  version "1.3.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/axios/-/axios-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Faxios%2F-%2Faxios-1.3.2.tgz#7ac517f0fa3ec46e0e636223fd973713a09c72b3"
+  integrity sha1-esUX8Po+xG4OY2Ij/Zc3E6CccrM=
+  dependencies:
+    follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
 blueimp-md5@^2.18.0:
   version "2.19.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/blueimp-md5/-/blueimp-md5-2.19.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fblueimp-md5%2F-%2Fblueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
@@ -759,6 +778,13 @@ color-name@~1.1.4:
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/color-name/-/color-name-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcolor-name%2F-%2Fcolor-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/combined-stream/-/combined-stream-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcombined-stream%2F-%2Fcombined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
+  dependencies:
+    delayed-stream "~1.0.0"
+
 commander@^9.1.0:
   version "9.5.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/commander/-/commander-9.5.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2F-%2Fcommander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
@@ -773,6 +799,11 @@ convert-source-map@^1.7.0:
   version "1.9.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/convert-source-map/-/convert-source-map-1.9.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fconvert-source-map%2F-%2Fconvert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
   integrity sha1-f6rmI1P7QhM2bQypg1jSLoNosF8=
+
+cookie@^0.5.0:
+  version "0.5.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/cookie/-/cookie-0.5.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fcookie%2F-%2Fcookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
+  integrity sha1-0fXXGt7GVYxY84mYfDZqpH6ZT4s=
 
 copy-to-clipboard@^3.2.0:
   version "3.3.3"
@@ -810,6 +841,11 @@ define-properties@^1.1.4:
   dependencies:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/delayed-stream/-/delayed-stream-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fdelayed-stream%2F-%2Fdelayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 dom-align@^1.7.0:
   version "1.12.4"
@@ -870,6 +906,20 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fescape-string-regexp%2F-%2Fescape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+follow-redirects@^1.15.0:
+  version "1.15.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/follow-redirects/-/follow-redirects-1.15.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Ffollow-redirects%2F-%2Ffollow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=
+
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/form-data/-/form-data-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fform-data%2F-%2Fform-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
 
 fsevents@~2.3.2:
   version "2.3.2"
@@ -940,6 +990,27 @@ hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
   dependencies:
     react-is "^16.7.0"
+
+html-parse-stringify@^3.0.1:
+  version "3.0.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/html-parse-stringify/-/html-parse-stringify-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fhtml-parse-stringify%2F-%2Fhtml-parse-stringify-3.0.1.tgz#dfc1017347ce9f77c8141a507f233040c59c55d2"
+  integrity sha1-38EBc0fOn3fIFBpQfyMwQMWcVdI=
+  dependencies:
+    void-elements "3.1.0"
+
+i18next-xhr-backend@^3.2.2:
+  version "3.2.2"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/i18next-xhr-backend/-/i18next-xhr-backend-3.2.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fi18next-xhr-backend%2F-%2Fi18next-xhr-backend-3.2.2.tgz#769124441461b085291f539d91864e3691199178"
+  integrity sha1-dpEkRBRhsIUpH1OdkYZONpEZkXg=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
+i18next@^22.4.9:
+  version "22.4.9"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/i18next/-/i18next-22.4.9.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fi18next%2F-%2Fi18next-22.4.9.tgz#98c8384c6bd41ff937da98b1e809ba03d3b41053"
+  integrity sha1-mMg4TGvUH/k32pix6Am6A9O0EFM=
+  dependencies:
+    "@babel/runtime" "^7.20.6"
 
 iconv-lite@^0.6.2:
   version "0.6.3"
@@ -1016,6 +1087,18 @@ magic-string@^0.27.0:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
+mime-db@1.52.0:
+  version "1.52.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/mime-db/-/mime-db-1.52.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmime-db%2F-%2Fmime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
+  integrity sha1-u6vNwChZ9JhzAchW4zh85exDv3A=
+
+mime-types@^2.1.12:
+  version "2.1.35"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/mime-types/-/mime-types-2.1.35.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fmime-types%2F-%2Fmime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
+  integrity sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=
+  dependencies:
+    mime-db "1.52.0"
+
 ms@2.1.2:
   version "2.1.2"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/ms/-/ms-2.1.2.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fms%2F-%2Fms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
@@ -1073,10 +1156,20 @@ postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/proxy-from-env/-/proxy-from-env-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+  integrity sha1-4QLxbKNVQkhldV0sno6k8k1Yw+I=
+
 qrcode.react@^3.1.0:
   version "3.1.0"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/qrcode.react/-/qrcode.react-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fqrcode.react%2F-%2Fqrcode.react-3.1.0.tgz#5c91ddc0340f768316fbdb8fff2765134c2aecd8"
   integrity sha1-XJHdwDQPdoMW+9uP/ydlE0wq7Ng=
+
+querystring@^0.2.1:
+  version "0.2.1"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/querystring/-/querystring-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fquerystring%2F-%2Fquerystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha1-QNd2FbsJ0WkCqFw+OKqLXtdhwt0=
 
 rc-align@^4.0.0:
   version "4.0.15"
@@ -1454,6 +1547,14 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-i18next@^12.1.5:
+  version "12.1.5"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-i18next/-/react-i18next-12.1.5.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-i18next%2F-%2Freact-i18next-12.1.5.tgz#b65f5733dd2f96188a9359c009b7dbe27443f009"
+  integrity sha1-tl9XM90vlhiKk1nACbfb4nRD8Ak=
+  dependencies:
+    "@babel/runtime" "^7.20.6"
+    html-parse-stringify "^3.0.1"
+
 react-is@^16.12.0, react-is@^16.7.0:
   version "16.13.1"
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2F-%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -1668,6 +1769,11 @@ vite@^4.1.0:
     rollup "^3.10.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+void-elements@3.1.0:
+  version "3.1.0"
+  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/void-elements/-/void-elements-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2Fvoid-elements%2F-%2Fvoid-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
+  integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
 
 whatwg-fetch@>=0.10.0:
   version "3.6.2"

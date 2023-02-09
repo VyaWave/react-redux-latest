@@ -6,5 +6,7 @@ export function useHomeHook() {
   return {
     tabs: state.tabs,
     activeTab: state.activeTab,
+    loading: state.loading,
+    error: state.error,
   }
 }

@@ -1,19 +1,15 @@
 import React from 'react'
 import { ConfigProvider } from 'antd'
 import ReactDOM from 'react-dom/client'
-import { HashRouter, BrowserRouter, Router, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { useRoutes } from 'react-router'
 import zhCN from 'antd/locale/zh_CN'
-import dayjs from 'dayjs'
 
-import 'dayjs/locale/zh-cn'
-import 'antd/dist/reset.css'
+import './common'
 import { Index } from './pages/Home/index'
 import { RouterConfig } from './router'
-
-import store from './state/index'
+import store from './state/store'
 import { Provider } from 'react-redux'
-dayjs.locale('zh-cn')
 
 const RenderRouter = () => {
   const ele = useRoutes(RouterConfig)
@@ -31,7 +27,7 @@ import '@/styles/index.css'
 const App = () => {
   return (
     <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <ConfigProvider locale={zhCN}>
           <Provider store={store}>
             <Routes>
@@ -39,7 +35,7 @@ const App = () => {
             </Routes>
           </Provider>
         </ConfigProvider>
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>
   )
 }
