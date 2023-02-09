@@ -17,7 +17,8 @@
     "jsx": "react-jsx",
     "paths": {
       "@/styles*": ["./src/styles*"]
-    }
+    },
+    "noUnusedLocals": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

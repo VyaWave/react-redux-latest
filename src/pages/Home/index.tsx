@@ -1,39 +1,71 @@
-import { updateTab, useHomeHook, fetchList } from '../../state/index'
+import { useEffect, useMemo } from 'react'
+import { updateTab, useHomeHook, fetchList, useAppDispatch } from '../../state/index'
 import { useTranslation } from 'react-i18next'
-import { useAppDispatch } from '../../state/index'
 
-import { useEffect } from 'react'
-export const Index = () => {
+import { Tabs, Typography } from 'antd'
+import type { TabsProps } from 'antd'
+
+import { Wallet as WalletComp } from './Wallet/index'
+
+const { Title } = Typography
+import './style.scss'
+
+export const Index: React.FC = () => {
   const dispatch = useAppDispatch()
-  const { activeTab, tabs, loading, error } = useHomeHook()
-  const { t, i18n } = useTranslation()
 
-  const handleClick = () => {
-    dispatch(fetchList({ page: 1, size: 10 }))
-    i18n.changeLanguage(i18n.language == 'zh' ? 'en' : 'zh')
-    const tab = activeTab == 'unNormal' ? 'normal' : 'unNormal'
-    dispatch(
-      updateTab({
-        activeTab: tab,
-      }),
-    )
+  const Wallet = useMemo(() => <WalletComp />, [])
 
-    console.log('%c === Log Log state home ===', 'color: blue', activeTab, i18n)
-  }
+  const items: TabsProps['items'] = [
+    {
+      key: '1',
+      label: `钱包`,
+      children: Wallet,
+    },
+    {
+      key: '2',
+      label: `通用`,
+      children: ``,
+    },
+    {
+      key: '3',
+      label: `平台优惠中心`,
+      children: ``,
+    },
+    {
+      key: '5',
+      label: `现金贷`,
+      children: ``,
+    },
+    {
+      key: '6',
+      label: `信用卡`,
+      children: ``,
+    },
+    {
+      key: '7',
+      label: `端外商户`,
+      children: ``,
+    },
+    {
+      key: '8',
+      label: `Marketplace`,
+      children: ``,
+    },
+    {
+      key: '9',
+      label: `其他`,
+      children: ``,
+    },
+  ]
 
-  useEffect(() => {
-    dispatch(fetchList({ page: 1, size: 10 }))
-    console.log('%c === Log Log 222 ===', 'color: blue')
-  }, [])
-
-  console.log('%c === Log Log tabs ===', 'color: blue', tabs, loading)
+  const onChange = (val: string) => {}
 
   return (
-    <div onClick={handleClick}>
-      {loading ? <p>loading</p> : <p>loaded</p>}
-      <p>Home Page</p>
-      <p>{activeTab}</p>
-      <p>{t('name')}</p>
+    <div className="w-full h-full p-2">
+      <div className="w-full">
+        <Title level={3}>Mission System</Title>
+        <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+      </div>
     </div>
   )
 }

@@ -5,11 +5,11 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import { useRoutes } from 'react-router'
 import zhCN from 'antd/locale/zh_CN'
 
-import './common'
 import { Index } from './pages/Home/index'
 import { RouterConfig } from './router'
 import store from './state/store'
 import { Provider } from 'react-redux'
+import './common'
 
 const RenderRouter = () => {
   const ele = useRoutes(RouterConfig)
